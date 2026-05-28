@@ -3,10 +3,15 @@ To build a robust Asset-Liability Management (ALM) framework that immunizes a bo
 
 Process:
 Portfolio & Liability Metrics — Computed the weighted duration and convexity for both the asset portfolio and the liability structure to establish a baseline for comparison.
+
 Duration Gap Analysis — Calculated the Duration Gap (Portfolio Duration − Liability Duration) to identify the degree of interest rate mismatch between assets and liabilities.
+
 Portfolio Rebalancing — Flagged portfolios with a non-zero duration gap and rebalanced the asset mix to bring the portfolio duration closer to the liability duration target.
+
 Convexity Matching — Evaluated convexity on both sides of the balance sheet to ensure second-order price sensitivity is aligned, reducing residual risk after duration matching.
+
 Interest Rate Shock Analysis — Simulated rate shocks of -2% to +2% in 1% increments and measured the divergence between asset price changes and liability price changes under each scenario.
+
 Funding Ratio Evaluation — Computed the Funding Ratio (Assets / Liabilities) to determine whether the portfolio is fully funded, overfunded, or underfunded at the current rate level.
 
 Results:
